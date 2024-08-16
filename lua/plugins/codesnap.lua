@@ -7,5 +7,9 @@ return {
   },
   opts = {
     has_breadcrumbs = true,
+    watermark = "",
+    bg_color = "#535c68",
+    bg_x_padding = 56,
+    bg_y_padding = 41,
   },
 }
