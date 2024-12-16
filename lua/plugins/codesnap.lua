@@ -2,7 +2,8 @@ return {
   "mistricky/codesnap.nvim",
   build = "make build_generator",
   keys = {
-    { "<leader>cs", "<esc><cmd>CodeSnap<cr>", mode = "x", desc = "Save selected code snapshot into clipboard" },
+    { "<leader>cs", "<esc><cmd>CodeSnap<cr>", mode = "x", desc = "Save selected code snapshot" },
+    { "<leader>ch", "<esc><cmd>CodeSnapHighlight<cr>", mode = "x", desc = "Save selected code snapshot with highlight" },
   },
   opts = {
     has_breadcrumbs = true,
