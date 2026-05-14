@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.g.autoformat = false
 vim.o.sessionoptions = ""
+
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldlevel = 99
